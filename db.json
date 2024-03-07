@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "San Lan",
+      "address": "XYZ",
+      "phone": 123456
+    },
+    {
+      "id": "05aa",
+      "name": "Madara Uchiha",
+      "address": "HLV",
+      "phone": "7777777"
+    },
+    {
+      "id": "292e",
+      "name": "RaiKage",
+      "address": "VL",
+      "phone": "8888888"
+    }
+  ]
+}

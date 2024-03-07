@@ -1,0 +1,250 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust as needed */
+  }
+  
+  /* CSS for the h1 tag */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Add margin bottom to create space between h1 and inner div */
+  }
+  
+  /* CSS for the inner div */
+  .inner-div {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Adjust border radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right;
+  }
+
+  .inner-div div {
+    margin-bottom: 10px; /* Add margin to the left of the link tag */
+    margin-right: 10px; /* Add margin to the right of the link tag */
+  }
+
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #28a745; /* Green color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-link:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS for table header */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* CSS for table header cells */
+  th {
+    padding: 10px;
+  }
+  
+  /* CSS for table body rows */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* CSS for table body cells */
+  td {
+    padding: 10px;
+  }
+
+  th.actions-header {
+    text-align: center;
+  }
+
+  /* CSS for the buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Green button style for Read */
+  .read-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #28a745; /* Green color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .read-button:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+
+  
+  /* Blue button style for Edit */
+  .edit-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color:#3d3dd7; /* Green color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .edit-button:hover {
+    background-color: #203d93; /* Darker green color on hover */
+  }
+  
+  /* Red button style for Delete */
+  .delete-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: red; /* Green color */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Adjust border radius as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .delete-button:hover{
+    background-color: #a32525; /* Darker green color on hover */
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+  /* ------------------------------------------------------------------------------------------------- */
+  /* Create Form CSS */
+
+
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .simple-form {
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button[type='submit'], .nav-link {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  .nav-link:hover{
+    background-color: #6e7272;
+  }
+  
+  
+  /* ============================================================================= */
+
+  .read-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically */
+  }
+  
+  .user-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  .user-details p {
+    margin: 5px 0; /* Adjust spacing between paragraphs */
+  }
+  .read-edit-button, .read-back-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    color: white;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease;
+
+
+    margin-top: 10px;
+    margin: 20px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .read-edit-button:hover, .back-button:hover {
+    background-color: #0056b3;
+  }
